@@ -1,0 +1,31 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-1702950ac8a-116ebd85a5f4180d": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - site_cv",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "site_cv",
+				"url": "jdbc:mysql://localhost:3306/site_cv",
+				"home": "/usr",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
